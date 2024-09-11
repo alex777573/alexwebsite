@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!--
+    Assignment 3
+    
+    Webform
+    Author: Alexander Skitikov
+    Student Number: T00743451
+
+    Filename: form.html
+   -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="alexander_skitikov_webform" content="Web Form" />
+    <link rel="stylesheet" href="/stylesheets/oform.css" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <title>Web Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Contact Me</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html" title="Home Page">Home</a></li>
+          <li><a href="second_page.html" title="My Hobbies">My Hobbies</a></li>
+          <li>
+            <a href="form.html" title="Your Questions">Submit Your Question</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <form class="webform">
+      <fieldset id="fieldset">
+        <label for="fName"> First Name </label>
+        <input type="text" name="fname" id="fName" required />
+
+        <label for="lName">Last Name </label>
+        <input type="text" name="lname" id="lName" required />
+
+        <label for="street"> Street</label>
+        <input type="text" name="street" id="street" required />
+
+        <label for="city"> City</label>
+        <input type="text" name="city" id="city" required />
+
+        <label for="province">Province</label>
+        <input type="text" name="province" id="province" required />
+
+        <label for="poscode"> Postal Code</label>
+        <input
+          type="text"
+          name="poscode"
+          id="poscode"
+          pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]"
+          placeholder="A1A 1A1"
+          required
+        />
+
+        <label for="phone"> Phone</label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="999-999-9999"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          required
+        />
+
+        <label for="selection">Are you employee or client?</label>
+
+        <select name="options" id="options">
+          <option value="" disabled selected>Select an Option</option>
+          <option value="client">Client</option>
+          <option value="employee">Employee</option>
+        </select>
+
+        <label for="contactMe">Do you want to be contacted?</label>
+        <input type="checkbox" name="contactMe" id="contactMe" />
+
+        <label for="comments">Add your comments!</label>
+        <textarea
+          name="comments"
+          id="comments"
+          placeholder="Add your comments"
+          \
+        >
+        </textarea>
+
+        <br />
+        <input type="submit" value="Submit Details" name="submit" />
+        <input type="reset" value="Cancel Details" name="reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>

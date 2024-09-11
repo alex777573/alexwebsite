@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+    Assignment 2
+    
+    Layout Design for a Website
+    Author: Alexander Skitikov
+    Student Number: T00743451
+
+    Filename: Home_Page.html
+   -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="alexander_skitikov_website"
+      content="Alexander Skitikov, my website"
+    />
+    <title>Alexander Skitikov Website</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <style>
+      .test {
+        height: 30px;
+        width: 200px;
+        border-radius: 50px;
+        background-color: rgb(10, 102, 194);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+
+        transition: opacity 0.5s, color 1s, box-shadow 3s;
+      }
+      .test:hover {
+        opacity: 0.8;
+        box-shadow: 5px 5px 5px black;
+        background-color: brown;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img
+        src="images/alexander_skitikov_logo.png"
+        alt="Alexander Skitikov's Website Logo"
+      />
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html" title="Home Page">Home</a></li>
+          <li><a href="second_page.html" title="My Hobbies">My Hobbies</a></li>
+          <li>
+            <a href="form.html" title="Your Questions">Submit Your Question</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <a href="second_page.html"
+        ><img
+          id="alex-workphoto"
+          title="Click to Go to My Hobbies Page"
+          src="images/alex_workphoto.JPG"
+          alt="Alexander Skitikov Picture"
+      /></a>
+      <section class="website">
+        <h1 id="Summary">Summary About Me</h1>
+
+        <p>
+          I am currenly a Group Financial Advisor working at RBC and a student
+          at Thompson Rivers University. I am getting my second degree as I have
+          decided to consider other opportunities in my career.
+        </p>
+
+        <p>
+          After I graduated from Seneca College in 2018 I have worked only for
+          one employer - RBC
+        </p>
+        <h2>My Positions at RBC:</h2>
+        <ul id="mypositions_list">
+          <li>Client Advisor</li>
+          <li>Banking Advisor</li>
+          <li>Financial Advisor</li>
+          <li>Group Financial Advisor</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <hr />
+      <p>
+        If you have any questions, please email me at:<a
+          href="mailto=alexander@gmail.com"
+          >alexander@gmail.com</a
+        >
+        <br />or call at: <a href="tel:+17829999999">782-999-9999</a>
+      </p>
+    </footer>
+  </body>
+</html>
