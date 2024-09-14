@@ -9,8 +9,12 @@
     Filename: oform.css
    */
 
+body {
+  margin: 0;
+  padding: 0;
+}
 .webform {
-  margin: 0px;
+  margin: 0 auto;
   padding: 10px;
   text-align: center;
   font-size: 1.3vw;
