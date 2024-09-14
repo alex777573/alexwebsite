@@ -60,7 +60,7 @@ label {
 }
 textarea {
   width: 30%;
-  height: 70px;
+  height: 100px;
   padding: 30px;
   resize: none;
   box-sizing: border-box;
