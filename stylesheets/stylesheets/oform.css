@@ -1,0 +1,100 @@
+@charset "utf-8";
+/*
+    Assignment 3
+    
+    Webform
+    Author: Alexander Skitikov
+    Student Number: T00743451
+
+    Filename: oform.css
+   */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.webform {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.3vw;
+}
+
+h1 {
+  padding-top: 3px;
+  text-align: center;
+}
+
+fieldset {
+  border: 0px;
+}
+
+input[type="text"],
+input[type="tel"],
+select,
+textarea {
+  border: 2px solid;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-right: 30px;
+}
+
+input[type="text"]:hover,
+input[type="tel"]:hover,
+input[type="checkbox"] {
+  color: burlywood;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #d7c0ae;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  box-shadow: 0 4px 8px rgb(220, 159, 93);
+}
+
+input[type="checkbox"] {
+  margin: 10px;
+  transform: scale(1.5);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+textarea {
+  width: 30%;
+  height: 50px;
+  padding: 30px;
+  resize: none;
+  box-sizing: border-box;
+  text-align: left;
+  vertical-align: top;
+  overflow: auto;
+  cursor: text;
+}
+label {
+  cursor: pointer;
+}
+input:valid {
+  border-color: rgb(3, 119, 39);
+}
+
+textarea:focus {
+  border-color: #c96b0d;
+  outline: none;
+}
