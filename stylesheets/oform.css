@@ -47,6 +47,12 @@ textarea {
   padding-right: 30px;
 }
 
+input[type="text"]:hover,
+input[type="tel"]:hover,
+input[type="checkbox"] {
+  color: burlywood;
+}
+
 input[type="submit"],
 input[type="reset"] {
   margin-top: 5px;
@@ -55,6 +61,12 @@ input[type="reset"] {
   cursor: pointer;
   background-color: #d7c0ae;
 }
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  box-shadow: 0 4px 8px rgb(220, 159, 93);
+}
+
 input[type="checkbox"] {
   margin: 10px;
   transform: scale(1.5);
@@ -80,4 +92,9 @@ label {
 }
 input:valid {
   border-color: rgb(3, 119, 39);
+}
+
+textarea:focus {
+  border-color: #c96b0d;
+  outline: none;
 }

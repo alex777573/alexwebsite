@@ -103,12 +103,3 @@ footer {
   float: right;
   margin: 0 auto;
 }
-@media (max-width: 1400px) and (min-width: 1000px) {
-  header,
-  .navbar {
-    flex-direction: column;
-  }
-  .website {
-    max-width: 90%;
-  }
-}
