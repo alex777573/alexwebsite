@@ -8,13 +8,14 @@
   }
 }
 
+/* For Tablets */
 @media screen and (max-width: 768px) {
   body {
     font-size: 14px;
   }
 
   .webform {
-    width: 95%;
+    width: 90%;
     padding: 15px;
     font-size: 3vw;
   }
@@ -32,13 +33,14 @@
   }
 }
 
+/* For Phones */
 @media screen and (max-width: 480px) {
   body {
     font-size: 13px;
   }
 
   .webform {
-    width: 95%;
+    width: 90%;
     padding: 11px;
     font-size: 4.2vw;
   }
