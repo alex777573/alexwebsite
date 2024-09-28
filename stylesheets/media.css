@@ -27,20 +27,20 @@
   input[type="submit"],
   input[type="reset"] {
     width: 100%;
-    padding: 10px;
-    font-size: 14px;
+    padding: 11px;
+    font-size: 15px;
   }
 }
 
 @media screen and (max-width: 480px) {
   body {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .webform {
     width: 95%;
-    padding: 10px;
-    font-size: 4vw;
+    padding: 11px;
+    font-size: 4.2vw;
   }
 
   input[type="text"],
