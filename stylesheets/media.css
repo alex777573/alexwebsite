@@ -11,24 +11,23 @@
 /* For Tablets */
 @media screen and (max-width: 768px) {
   body {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .webform {
     width: 90%;
-    padding: 15px;
-    font-size: 3vw;
+    padding: 10px;
   }
 
   textarea {
-    width: 100%;
-    padding: 20px;
+    width: 9%;
+    padding: 10px;
   }
 
   input[type="submit"],
   input[type="reset"] {
     width: 100%;
-    padding: 11px;
+    padding: 10px;
     font-size: 15px;
   }
 }
@@ -41,7 +40,7 @@
 
   .webform {
     width: 90%;
-    padding: 11px;
+    padding: 10px;
     font-size: 4.2vw;
   }
 
