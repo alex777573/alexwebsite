@@ -20,19 +20,19 @@
 
   .webform {
     width: 90%;
-    height: auto;
+    height: 50%;
     padding: 10px;
     font-size: 1.2vw;
   }
 
   textarea {
-    width: 100%;
+    width: 50%;
     height: 50px;
   }
 
   input[type="submit"],
   input[type="reset"] {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     font-size: 15px;
   }
