@@ -78,8 +78,8 @@ label {
   margin-top: 10px;
 }
 textarea {
-  width: 30%;
-  height: 50px;
+  width: 100%;
+  height: 70px;
   padding: 30px;
   resize: none;
   box-sizing: border-box;
