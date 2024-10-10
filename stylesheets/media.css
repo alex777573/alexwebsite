@@ -1,10 +1,10 @@
 @media (max-width: 1400px) and (min-width: 1000px) {
   header,
   .navbar {
-    flex-direction: column;
+    flex-direction: row;
   }
   .website {
-    max-width: 90%;
+    max-width: 70%;
   }
 }
 
