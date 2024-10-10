@@ -35,6 +35,7 @@ h2 {
   background-color: #3a6d8c;
   padding: 0%;
   margin: 0%;
+  width: 100%;
 }
 
 .navbar ul {
@@ -44,6 +45,7 @@ h2 {
   padding: 0;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .navbar li {
   float: left;
